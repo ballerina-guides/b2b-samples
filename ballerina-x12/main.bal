@@ -1,4 +1,4 @@
-import x12/supplychain.v004010.m850;
+import ballerinax/x12.supplychain.v004010.m850;
 import ballerina/io;
 
 public function main() returns error? {

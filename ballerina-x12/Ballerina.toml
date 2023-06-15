@@ -8,7 +8,7 @@ distribution = "2201.6.0"
 observabilityIncluded = true
 
 [[dependency]]
-org="x12"
-name="supplychain.v004010"
-version="0.1.2"
+org="ballerinax"
+name="x12.supplychain.v004010"
+version="0.1.0"
 repository="local"
