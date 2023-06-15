@@ -1,5 +1,5 @@
-import ballerinax/x12.supplychain.v004010.m850;
 import ballerina/io;
+import ballerinax/x12.supplychain.v004010.m850;
 
 public function main() returns error? {
     string ediText = check io:fileReadString("resources/messages/850_sample1.edi");
