@@ -1,0 +1,14 @@
+[package]
+org = "chathura"
+name = "ballerina_x12"
+version = "0.1.0"
+distribution = "2201.6.0"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org="x12"
+name="supplychain.v004010"
+version="0.1.2"
+repository="local"
