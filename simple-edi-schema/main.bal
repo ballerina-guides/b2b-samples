@@ -1,6 +1,5 @@
 import ballerina/io;
 import simple_edi_schema.hmart;
-
 public function main() returns error? {
    string ediText = check io:fileReadString("resources/in-message.edi");
    hmart:HMartOrder hmartOrder = check hmart:fromEdiString(ediText);
